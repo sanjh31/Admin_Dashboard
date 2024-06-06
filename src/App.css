@@ -1,0 +1,14 @@
+
+/* styling for the pages */
+.Pages{
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    height: calc(100vh - 56px);
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .Pages{height: 100vh;}
+}
