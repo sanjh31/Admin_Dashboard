@@ -5,6 +5,7 @@ import { useState } from 'react'
 import Home from "./Pages/HomePage/Home"
 import Navbar from './Components/HeadbarComponent/Navbar'
 import MobileresponsiveSidebar from './Components/SidebarComponent/MobileresponsiveSidebar'
+import Footer from './Components/FooterComponent/Footer'
 
 function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -51,6 +52,9 @@ function App() {
       {/* Home   Means all the another pages will also be here */}
       <div className='Pages p-2  m-0 '>
         <Home />
+      </div>
+      <div>
+        <Footer/>
       </div>
     </div>
     </div>
